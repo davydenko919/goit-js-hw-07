@@ -13,7 +13,7 @@ function handleSubmit(event) {
   } else {
     console.log({
       Email: email.trim(),
-      Password: password.trim()
+      Password: password.trim(),
     });
   }
 
