@@ -25,17 +25,6 @@ const images = [
   },
 ];
 
-// const gallery = document.querySelector("ul.gallery");
-
-// images.forEach((element) => {
-//   const li = document.createElement("li");
-//   const image = document.createElement("img");
-//   image.src = element.url;
-//   image.alt = element.alt;
-//   li.appendChild(image);
-//   gallery.appendChild(li);
-// });
-
 const gallery = document.querySelector("ul.gallery");
 const galleryItemsHtml = images.map(element => {
   return `<li><img src="${element.url}" alt="${element.alt}"></li>`;
